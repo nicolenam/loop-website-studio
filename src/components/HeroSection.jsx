@@ -48,7 +48,7 @@ export default function HeroSection() {
           >
             <div className="rounded-2xl overflow-hidden shadow-2xl shadow-foreground/5 border border-border/40">
               <img
-                src="/__generating__/img_83e05979cafb.png"
+                src="https://media.base44.com/images/public/69d1b1677be98f4d2553dfcd/56a1f9950_generated_5f99e473.png"
                 alt="Clean workspace with laptop showing website wireframe"
                 className="w-full h-auto object-cover"
               />

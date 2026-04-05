@@ -14,7 +14,7 @@ export default function AboutSection() {
           >
             <div className="rounded-2xl overflow-hidden aspect-square max-w-md mx-auto md:mx-0">
               <img
-                src="/__generating__/img_a4350f10a10a.png"
+                src="https://media.base44.com/images/public/69d1b1677be98f4d2553dfcd/a82b3c32b_generated_f95e47de.png"
                 alt="Nicole, founder of Loop Website Studio"
                 className="w-full h-full object-cover"
               />
