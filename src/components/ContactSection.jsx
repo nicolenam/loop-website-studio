@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { base44 } from "@/api/base44Client";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
@@ -8,10 +9,18 @@ import { Mail, Send, CheckCircle } from "lucide-react";
 
 export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    await base44.integrations.Core.SendEmail({
+      to: "eunjungnam@gmail.com",
+      subject: `New contact form submission from ${form.name}`,
+      body: `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`,
+    });
+    setLoading(false);
     setSubmitted(true);
   };
 
@@ -91,7 +100,7 @@ export default function ContactSection() {
                   />
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 pt-2">
-                  <Button type="submit" className="rounded px-8 h-11 gap-2">
+                  <Button type="submit" className="rounded px-8 h-11 gap-2" disabled={loading}>
                     <Send className="w-4 h-4" />
                     Send Message
                   </Button>
