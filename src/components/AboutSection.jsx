@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-24 md:py-32">
+    <section id="about" className="py-24 md:py-32 bg-zinc-100">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mx-auto">
           <motion.div
