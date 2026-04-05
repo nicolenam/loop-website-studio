@@ -104,17 +104,6 @@ export default function ContactSection() {
                     <Send className="w-4 h-4" />
                     Send Message
                   </Button>
-                  <Button
-                    type="button"
-                    variant="outline"
-                    className="rounded px-8 h-11 gap-2"
-                    asChild
-                  >
-                    <a href="mailto:hello@loopwebsitestudio.com">
-                      <Mail className="w-4 h-4" />
-                      Email Directly
-                    </a>
-                  </Button>
                 </div>
               </form>
             )}
