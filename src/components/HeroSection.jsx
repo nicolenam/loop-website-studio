@@ -29,7 +29,7 @@ export default function HeroSection() {
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </Button>
-              <Button asChild variant="ghost" size="lg" className="rounded px-8 h-11 text-base text-muted-foreground">
+              <Button asChild variant="outline" size="lg" className="rounded px-8 h-11 text-base">
                 <a href="#services">See What I Do</a>
               </Button>
             </div>
