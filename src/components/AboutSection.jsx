@@ -51,20 +51,6 @@ export default function AboutSection() {
                 the runaround.
               </p>
             </div>
-            <div className="mt-8 flex gap-8">
-              <div>
-                <p className="font-serif text-3xl font-semibold">50+</p>
-                <p className="text-sm text-muted-foreground mt-1">Happy Clients</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl font-semibold">24hr</p>
-                <p className="text-sm text-muted-foreground mt-1">Response Time</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl font-semibold">100%</p>
-                <p className="text-sm text-muted-foreground mt-1">Satisfaction</p>
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
