@@ -12,10 +12,10 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="rounded-2xl overflow-hidden aspect-square max-w-md mx-auto md:mx-0">
+            <div className="rounded-2xl overflow-hidden aspect-square max-w-md mx-auto md:mx-0 bg-accent/20">
               <img
-                src="https://media.base44.com/images/public/69d1b1677be98f4d2553dfcd/a82b3c32b_generated_f95e47de.png"
-                alt="Nicole, founder of Loop Website Studio"
+                src="https://media.base44.com/images/public/69d1b1677be98f4d2553dfcd/32f1b0a54_generated_image.png"
+                alt="Abstract illustration"
                 className="w-full h-full object-cover"
               />
             </div>
