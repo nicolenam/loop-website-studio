@@ -44,7 +44,7 @@ export default function ContactSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             {submitted ? (
-              <div className="text-center py-16 bg-card rounded-2xl border border-border/60">
+              <div className="text-center py-16 bg-card rounded-2xl border border-foreground">
                 <CheckCircle className="w-12 h-12 text-foreground mx-auto mb-4" />
                 <h3 className="text-2xl font-semibold mb-2">Thanks for reaching out!</h3>
                 <p className="text-muted-foreground">
@@ -52,7 +52,7 @@ export default function ContactSection() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="bg-card rounded-2xl border border-border/60 p-8 md:p-10 space-y-6">
+              <form onSubmit={handleSubmit} className="bg-card rounded-2xl border border-foreground p-8 md:p-10 space-y-6">
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="name" className="text-sm font-medium">Name</Label>
