@@ -28,7 +28,7 @@ export default function ContactSection() {
           <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-3">
             Let's Talk
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
             Ready to Get Started?
           </h2>
           <p className="mt-4 text-muted-foreground max-w-lg mx-auto leading-relaxed">
@@ -46,7 +46,7 @@ export default function ContactSection() {
             {submitted ? (
               <div className="text-center py-16 bg-card rounded-2xl border border-border/60">
                 <CheckCircle className="w-12 h-12 text-foreground mx-auto mb-4" />
-                <h3 className="font-serif text-2xl font-semibold mb-2">Thanks for reaching out!</h3>
+                <h3 className="text-2xl font-semibold mb-2">Thanks for reaching out!</h3>
                 <p className="text-muted-foreground">
                   I'll get back to you within 24 hours.
                 </p>
@@ -91,14 +91,14 @@ export default function ContactSection() {
                   />
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 pt-2">
-                  <Button type="submit" className="rounded-full px-8 h-11 gap-2">
+                  <Button type="submit" className="rounded px-8 h-11 gap-2">
                     <Send className="w-4 h-4" />
                     Send Message
                   </Button>
                   <Button
                     type="button"
                     variant="outline"
-                    className="rounded-full px-8 h-11 gap-2"
+                    className="rounded px-8 h-11 gap-2"
                     asChild
                   >
                     <a href="mailto:hello@loopwebsitestudio.com">

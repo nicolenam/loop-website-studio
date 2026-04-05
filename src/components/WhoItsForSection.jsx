@@ -38,7 +38,7 @@ export default function WhoItsForSection() {
           <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-3">
             Who It's For
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
             Built for Real Business Owners
           </h2>
           <p className="mt-4 text-muted-foreground max-w-lg mx-auto leading-relaxed">

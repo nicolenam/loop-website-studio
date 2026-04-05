@@ -30,7 +30,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Button asChild size="sm" className="rounded-full px-6">
+          <Button asChild size="sm" className="rounded px-6">
             <a href="#contact">Get in Touch</a>
           </Button>
         </div>
@@ -62,7 +62,7 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <Button asChild size="sm" className="rounded-full w-fit px-6">
+              <Button asChild size="sm" className="rounded w-fit px-6">
                 <a href="#contact" onClick={() => setMobileOpen(false)}>Get in Touch</a>
               </Button>
             </div>

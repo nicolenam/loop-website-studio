@@ -52,7 +52,7 @@ export default function ServicesSection() {
           <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-3">
             What I Do
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
             Simple, Practical Services
           </h2>
           <p className="mt-4 text-muted-foreground max-w-lg mx-auto leading-relaxed">
@@ -69,7 +69,7 @@ export default function ServicesSection() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-60px" }}
-              className="group bg-card rounded-2xl p-8 border border-border/60 hover:border-accent transition-all duration-300 hover:shadow-sm"
+              className="group bg-card rounded p-8 border border-border hover:border-foreground/30 transition-all duration-300"
             >
               <div className="w-11 h-11 rounded-xl bg-accent/60 flex items-center justify-center mb-5 group-hover:bg-accent transition-colors duration-300">
                 <service.icon className="w-5 h-5 text-foreground" />

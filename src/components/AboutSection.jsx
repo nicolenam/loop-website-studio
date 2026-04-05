@@ -14,7 +14,7 @@ export default function AboutSection() {
             <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-3">
               About
             </p>
-            <h2 className="font-serif text-3xl md:text-4xl font-semibold tracking-tight mb-6">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">
               Hi, I'm Nicole.
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
